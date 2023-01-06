@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Clock from './Clock';
 import { Helmet } from "react-helmet";
 
 function App() {
@@ -10,6 +11,10 @@ function App() {
     </Helmet>
     <div className="App">
       <header className="App-header">
+        <div className="spacing"></div>
+        <div className='Blur App-content'>
+          <Clock/>
+        </div>
         <div className="spacing"></div>
         <img className='imageFile' src='https://avatars.githubusercontent.com/u/91181632?v=4' alt='pfp' />
         <div className="spacing"></div>
@@ -29,8 +34,10 @@ function App() {
         <div className="spacing"></div>
         <div className='App-grid-container Blur'>
           <div className='App-grid-item'>
-            <h3><a href='https://github.com/MiracleCherryPie/miraclecherrypie.github.io'>Current website</a></h3>
-            <p>Lorem ipsum dolor sit amet</p>
+            <h3><a href='https://github.com/MiracleCherryPie/react-website'>Current website</a></h3>
+            <p>Finally the React.js version of
+              <br/>
+              my website</p>
           </div>
           <div className='App-grid-item'>
             <h3><a href='https://miraclecherrypie.cf'>Legacy website</a></h3>
