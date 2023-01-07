@@ -16,9 +16,9 @@ function App() {
           <li className="dropdown">
           <a href="/" className="dropbtn">Links</a>
           <div className="dropdown-content">
-            <a href="https://github.com/MiracleCherryPie">GitHub</a>
-            <a href="https://youtube.com/@SignificantSmell548">YouTube</a>
-            <a href="https://discord.com/users/899869470145802260">Discord</a>
+            <a href="https://github.com/MiracleCherryPie" rel="noreferrer" target="_blank">GitHub</a>
+            <a href="https://youtube.com/@SignificantSmell548" rel="noreferrer" target="_blank">YouTube</a>
+            <a href="https://discord.com/users/899869470145802260" rel="noreferrer" target="_blank">Discord</a>
           </div>
           </li>
         </ul>
