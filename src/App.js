@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Clock from './Clock';
 import { Helmet } from "react-helmet";
 
 function App() {
@@ -24,18 +23,15 @@ function App() {
           </li>
         </ul>
         <div className="spacing"></div>
-        <div className='Blur App-content'>
-          <Clock/>
-        </div>
         <div className="spacing"></div>
         <img className='imageFile' src='https://avatars.githubusercontent.com/u/91181632?v=4' alt='pfp' />
         <div className="spacing"></div>
-        <div className='Blur App-content'>
+        <div className='Blur App-content App-transition'>
           <h1>MiracleCherryPie</h1>
           <p>Hello world. Now I decided to learn React.js. So I re-build my website from scratch and move from HTML + W3.CSS to React + pure CSS</p>
         </div>
         <div className="spacing"></div>
-        <div className='Blur App-content'>
+        <div className='Blur App-content App-transition'>
           <h2>About me</h2>
           <p>
             I'm 15 years old Linux enthuasist and Coder who learn to make discord bots from scratch and create website in some framework like React.js.

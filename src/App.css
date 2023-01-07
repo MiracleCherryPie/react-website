@@ -7,6 +7,16 @@
   font-size: medium;
 }
 
+.App-transition {
+  transition: width 2s, height 2s;
+  width: 300px;
+  height: 300px;
+}
+
+.App-transition:hover {
+  width: 800px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
