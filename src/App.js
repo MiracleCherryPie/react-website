@@ -15,7 +15,7 @@ function App() {
           <li><a href="/">Home</a></li>
           <li><a href="/blog">Blog</a></li>
           <li className="dropdown">
-          <a href="javascript:void(0)" className="dropbtn">Links</a>
+          <a href="/" className="dropbtn">Links</a>
           <div className="dropdown-content">
             <a href="https://github.com/MiracleCherryPie">GitHub</a>
             <a href="https://youtube.com/@SignificantSmell548">YouTube</a>
