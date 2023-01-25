@@ -21,9 +21,9 @@ function App() {
         <div className='Blur App-content App-transition'>
           <h1>MiracleCherryPie</h1>
           <p>Hello world. Now I decided to learn React.js. So I re-build my website from scratch and move from HTML + W3.CSS to React + pure CSS</p>
-          <a class="fa-brands fa-github large-icon" href='https://github.com/MiracleCherryPie'></a>
-          <a class="fa-brands fa-discord large-icon" href='https://discord.com/users/899869470145802260'></a>
-          <a class="fa-brands fa-youtube large-icon" href='https://youtube.com/@significantsmell548'></a>
+          <a class="fa-brands fa-github large-icon" href='https://github.com/MiracleCherryPie'><i></i></a>
+          <a class="fa-brands fa-discord large-icon" href='https://discord.com/users/899869470145802260'><i></i></a>
+          <a class="fa-brands fa-youtube large-icon" href='https://youtube.com/@significantsmell548'><i></i></a>
         </div>
         <div className="spacing"></div>
         <div className='Blur App-content App-transition'>
