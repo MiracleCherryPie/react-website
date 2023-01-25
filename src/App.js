@@ -13,14 +13,6 @@ function App() {
       <ul className='smallfont'>
           <li><a href="/">Home</a></li>
           <li><a href="/blog">Blog</a></li>
-          <li className="dropdown">
-          <a href="/" className="dropbtn">Links</a>
-          <div className="dropdown-content">
-            <a href="https://github.com/MiracleCherryPie" rel="noreferrer" target="_blank">GitHub</a>
-            <a href="https://youtube.com/@SignificantSmell548" rel="noreferrer" target="_blank">YouTube</a>
-            <a href="https://discord.com/users/899869470145802260" rel="noreferrer" target="_blank">Discord</a>
-          </div>
-          </li>
         </ul>
         <div className="spacing"></div>
         <div className="spacing"></div>
@@ -29,6 +21,9 @@ function App() {
         <div className='Blur App-content App-transition'>
           <h1>MiracleCherryPie</h1>
           <p>Hello world. Now I decided to learn React.js. So I re-build my website from scratch and move from HTML + W3.CSS to React + pure CSS</p>
+          <a class="fa-brands fa-github large-icon" href='https://github.com/MiracleCherryPie'></a>
+          <a class="fa-brands fa-discord large-icon" href='https://discord.com/users/899869470145802260'></a>
+          <a class="fa-brands fa-youtube large-icon" href='https://youtube.com/@significantsmell548'></a>
         </div>
         <div className="spacing"></div>
         <div className='Blur App-content App-transition'>
